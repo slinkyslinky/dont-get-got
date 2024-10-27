@@ -1,8 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {
-    basePath: "/dont-get-got",
-    output: "export",  // <=== enables static exports
+
+
+export default {
+    basePath: 'dont-get-got',
+    output: "export",
     reactStrictMode: true,
 };
 
-module.exports = nextConfig;
