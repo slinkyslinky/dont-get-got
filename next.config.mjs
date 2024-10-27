@@ -2,7 +2,7 @@
 
 
 export default {
-    basePath: 'dont-get-got',
+    // basePath: 'dont-get-got',
     reactStrictMode: true,
 };
 

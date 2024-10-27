@@ -62,3 +62,4 @@ function Home(props) {
 }
 
 export default Home;
+export const dynamic = 'force-dynamic'
