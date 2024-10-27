@@ -4,6 +4,6 @@
 export default {
     basePath: '/dont-get-got',
     // reactStrictMode: true,
-    output: 'standalone',
+
 };
 
