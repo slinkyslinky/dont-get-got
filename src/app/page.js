@@ -84,7 +84,7 @@ function Home(props) {
                         <p className="text-lg text-amber-700 mb-12">Получи задания, покажи, на что ты способен!</p>
 
                         <Button
-                            className={`rounded-2xl bg-amber-600 hover:bg-amber-700 text-amber-50 text-lg font-bold transition-colors ${pageStatus !== 'shown' ? 'px-12 py-5' : 'px-8 py-3'}`}
+                            className={`rounded-full bg-amber-600 hover:bg-amber-700 text-amber-50 text-lg font-bold transition-colors ${pageStatus !== 'shown' ? 'px-12 py-5' : 'px-8 py-3'}`}
                             onClick={() => getTasks()}
                         >
                             {Text.cardButton[pageStatus]}
