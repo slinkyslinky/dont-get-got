@@ -92,6 +92,37 @@ function Home(props) {
                     </div>
                 </section>
 
+                {/* Tips Section */}
+                <section className="py-20 bg-white">
+                    <div className="max-w-6xl mx-auto px-4">
+                        <h2 className="text-4xl font-bold text-center text-amber-900 mb-4">Полезные советы</h2>
+                        <p className="text-center text-amber-700 mb-12 text-lg">Помогите себе пройти все задания</p>
+
+                        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+                            {/* Tip Card 1 */}
+                            <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow">
+                                <div className="text-4xl mb-4">🎯</div>
+                                <h3 className="text-xl font-bold text-amber-900 mb-3">Сосредоточься</h3>
+                                <p className="text-amber-800">Прочитай задание внимательно и обдумай ответ перед тем как отправлять</p>
+                            </div>
+
+                            {/* Tip Card 2 */}
+                            <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow">
+                                <div className="text-4xl mb-4">⏱️</div>
+                                <h3 className="text-xl font-bold text-amber-900 mb-3">Не спеши</h3>
+                                <p className="text-amber-800">У тебя есть время на размышление. Лучше потратить минуту на правильный ответ</p>
+                            </div>
+
+                            {/* Tip Card 3 */}
+                            <div className="bg-gradient-to-br from-amber-50 to-amber-100 rounded-2xl p-8 shadow-md hover:shadow-lg transition-shadow">
+                                <div className="text-4xl mb-4">💡</div>
+                                <h3 className="text-xl font-bold text-amber-900 mb-3">Учись на ошибках</h3>
+                                <p className="text-amber-800">Каждая ошибка помогает тебе лучше подготовиться к следующему заданию</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
                 {/* Tasks Section */}
                 {pageStatus === 'shown' && (
                     <section className="py-12 bg-white">
